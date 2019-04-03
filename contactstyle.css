@@ -14,3 +14,10 @@
   cont-size: 15px;
   font-family: helvetica;
 }
+.nav-item{
+  text-align:center;
+  border:1px;
+}
+.nav-li {
+   display: inline-block;
+ }
