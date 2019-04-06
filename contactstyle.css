@@ -16,6 +16,8 @@
   cont-size: 15px;
   font-family: helvetica;
 }
+
+
 .nav-item{
   text-align:center;
   border:1px;
@@ -63,6 +65,16 @@
    -ms-flex-wrap: wrap; /* IE10 */
    flex-wrap: wrap;
    padding: 0 4px;
+ }
+
+ .ourlist{
+   text-align: center;
+   padding: 15px;
+   font-family: Lucida console;
+   font-size: large;
+   colour: white;
+   font-size: 18px;
+   /* font-family: helvetica; */
  }
 
  /* Create four equal columns that sits next to each other */
