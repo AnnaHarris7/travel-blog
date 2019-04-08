@@ -68,12 +68,12 @@
  }
 
  .ourlist{
-   text-align: center;
-   padding: 15px;
+   text-align: left;
+   padding: 35px;
    font-family: Lucida console;
    font-size: large;
    colour: white;
-   font-size: 18px;
+   font-size: 22px;
    /* font-family: helvetica; */
  }
 
@@ -89,6 +89,67 @@
    margin-top: 8px;
    vertical-align: middle;
  }
+
+ form__row label {
+  	color: #fff;
+  	flex: 1;
+  	align-items: center;
+  	display: flex;
+  	/*take the bewlow out if you want to text to align left*/
+ }
+ .form {
+ 	background-color: #6495ED;
+ 	padding: 40px;
+ 	max-width: 1000px;
+ 	margin: 0 auto;
+ }
+
+ .form__row {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ .form__row+.form__row {
+ 	margin-top: 10px;
+ }
+
+ .form__row label {
+
+ 	flex: 1;
+ 	align-items: center;
+ 	display: flex;
+ 	/*take the bewlow out if you want to text to align left*/
+ 	justify-content: flex-end;
+ 	margin-right: 20px;
+ }
+
+ .form__row label[for="message"] {
+ 	align-self: flex-end;
+ }
+
+ .form__row input,
+ .form__row textarea {
+ 	width: 70%;
+ 	padding: 10px;
+ }
+
+ .form__row textarea {
+ 	padding: 10px;
+ 	height: 300px;
+ }
+
+ .form__row input::placeholder
+
+ }
+
+ .form__row--button {
+ 	jus
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
 
  /* Responsive layout - makes a two column-layout instead of four columns */
  @media screen and (max-width: 800px) {
